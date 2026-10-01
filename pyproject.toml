@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hashtrace"
+version = "0.1.0"
+description = "HashTrace static-analysis artifact"
+requires-python = ">=3.10"
+dependencies = [
+    "tree-sitter>=0.23",
+    "tree-sitter-c>=0.23",
+    "tree-sitter-cpp>=0.23",
+]
+
+[project.scripts]
+hashtrace = "hashtrace.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

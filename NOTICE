@@ -1,0 +1,12 @@
+HashTrace static-analysis artifact
+
+Files are copied or adapted from the supplied research workspace. Existing
+source comments and benchmark origins are retained. The reusable analysis
+core is described by the original workspace README as originating from its
+RE project. Benchmark fixtures are described there as distilled from other
+projects; available source attribution comments are retained in the fixtures.
+
+No top-level license was found for the copied source and benchmark directories.
+This preparation does not assign a new license or grant additional rights.
+Before public distribution, the authors should select an appropriate license
+for their own work and verify any applicable upstream notices and permissions.
